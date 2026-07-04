@@ -141,13 +141,7 @@ La librería fue integrada en:
 
 # Video demostrativo
 
-Video (máximo 1 minuto):
 
-Coloca aquí el enlace de tu video.
-
-Ejemplo:
-
-https://youtu.be/TU_VIDEO
 
 ---
 
