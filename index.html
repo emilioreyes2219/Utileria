@@ -3,56 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2</title>
+    <title>Utilería JavaScript</title>
 
-    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <script src="Js/libreria.js"></script>
+    <script src="Js/index.js" defer></script>
 </head>
 <body>
 
-    <div class="contenedor">
+<div class="contenedor">
 
-        <h1>Actividad 2</h1>
+    <h1>Utilería JavaScript</h1>
 
-      
+    <form id="formulario">
 
-        <div class="tarjetas">
+        <label>Nombre</label>
+        <input type="text" id="nombre" required>
 
-            <div class="tarjeta">
-                <h2>Formulario</h2>
+        <label>Fecha de nacimiento</label>
+        <input type="date" id="fechaNacimiento" required>
 
-                <p>
-                    Prueba las funciones de validación de nombre,
-                    longitud, mayoría de edad y formateo de texto.
-                </p>
+        <label>Número (máximo 5 dígitos)</label>
+        <input type="number" id="numero" required>
 
-                <a href="formulario.html">Abrir formulario</a>
-            </div>
+        <label>Texto libre</label>
+        <input type="text" id="textoLibre">
 
-            <div class="tarjeta">
-                <h2>Modal Edad</h2>
+        <label>Número para validar si es par</label>
+        <input type="number" id="numeroPar">
 
-                <p>
-                    Calcula la edad de una persona y la muestra
-                    dentro de una ventana modal.
-                </p>
+        <button type="submit">Enviar</button>
 
-                <a href="modal.html">Abrir modal</a>
-            </div>
+    </form>
 
-            <div class="tarjeta">
-                <h2>Login</h2>
+</div>
 
-                <p>
-                    Valida un correo electrónico y una contraseña
-                    utilizando la librería JavaScript.
-                </p>
+<div id="modal" class="modal">
 
-                <a href="login.html">Abrir login</a>
-            </div>
+    <div class="modal-contenido">
 
-        </div>
+        <span id="cerrar">&times;</span>
+
+        <h2>Edad Calculada</h2>
+
+        <p id="resultadoEdad"></p>
 
     </div>
+
+</div>
 
 </body>
 </html>
