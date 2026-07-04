@@ -45,5 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
             modal.style.display="none";
         }
     }
-
+console.log("=== Pruebas de la librería ===");
+console.log("Correo válido:", validarCorreo("jorge@gmail.com"));
+console.log("Contraseña válida:", validarPassword("Admin123*"));
+console.log("Edad:", calcularEdad("2004-06-15"));
+console.log("Solo letras:", soloLetras("Jorge Emilio"));
+console.log("Longitud válida:", validarLongitud(12345, 5));
+console.log("Texto formateado:", formatearTexto("hola mundo"));
+console.log("Número par:", esNumeroPar(24));
 });
